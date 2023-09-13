@@ -24,6 +24,8 @@ body {
     margin-right: 600px;
     margin-left: 250px;
     margin-top: 250px;
+    width: 500px;
+    height: 500px;
     background-color: burlywood;
 }
 .projectContainer {
@@ -43,4 +45,22 @@ body {
     position: absolute; 
     right: 150px;
     top: 700px;
+}
+.qualificationsContainer {
+    display: inline-block;
+    font-family: "Arial";
+    width: 500px;
+    height: 550px;
+    background-color: burlywood;
+}
+.resume {
+    display: inline-block;
+    vertical-align: top;
+    width: 950px;
+    height: 550px;
+    background-color: burlywood;
+}
+.serviceContainer {
+    font-family: "Arial";
+    background-color: burlywood;
 }
