@@ -1,6 +1,14 @@
 h1 {
     text-align: center;
-    color: black;
+    font-family: 'Roboto';
+    font-size: 36px;
+    color: darkblue;
+}
+h2 {
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 36px;
+    color: darkblue;
 }
 body {
     background-color: lightgray;
@@ -9,24 +17,30 @@ body {
     border: 5px outset midnightblue;
     background-color: lavender;
     text-align: center;
-    text-size-adjust: 50;
-}
-img {
-    position: absolute; 
-    right: 10px;
 }
 .landingContainer {
     font-family: "Arial";
-    background-color: lightcoral;
+    text-align: center;
+    margin-right: 600px;
+    margin-left: 250px;
+    margin-top: 250px;
+    background-color: burlywood;
 }
-table {
-    display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
+.projectContainer {
+    font-family: "Arial";
+    text-align: left;
+    margin-right: 650px;
+    margin-left: 250px;
+    margin-top: 250px;
+    background-color: burlywood;
 }
-.tableBody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
+.maroonVid {
+    position: absolute; 
+    right: 200px;
+    top: 250px;
+}
+.aggieVid {
+    position: absolute; 
+    right: 150px;
+    top: 700px;
 }
