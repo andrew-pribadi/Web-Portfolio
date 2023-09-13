@@ -6,7 +6,7 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico"> </link>
     </head>
     <body>
-        <h1>
+        <div class="header">
             <div class="dropdown" style="float:left;">
                 <button class="dropbtn">Home</button>
                 <div class="dropdown-content">
@@ -16,18 +16,24 @@
                 <a href="service.html">Service Section</a>
                 <a href="ai.html">A.I. Page</a>
                 </div>
-              </div>
-              Howdy, my name is Andrew Pribadi
-        </h1>
-        <hr>
-        <p>
-            <style>img{position: absolute; right: 0px;}</style>
-            <img width="300px" height="450px" src="headshot.jpg" alt="Andrew's Beautiful Picture">
-            Thank you for coming to this page!</p>
-            <button type="button" onclick="button1()">Change Mode</button>
-        <p id="output">
-        </p>
+            </div>
+            <h1>
+              Andrew Pribadi
+            </h1>
+        </div>
+        <div class="landingContainer">
+            <table style="border: 3px midnightblue;" colspan="2" cellspacing="5" cellpadding="5" width="100%">
+                <tableBody>
+                    <tr>
+                        <p>
+                            Thank you for coming to this page!
+                        </p>    
+                    </tr>
+                </tableBody>
+            </table>
+        </div>
+        <button type="button" onclick="button1()">Change Mode</button>
+            <p id="output"></p>
         <script src="functions.js"></script>
     </body>
-    <a href="technical portfolio.html">Technical Portfolio</a>
 </html>

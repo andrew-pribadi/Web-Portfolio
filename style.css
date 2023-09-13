@@ -1,7 +1,32 @@
 h1 {
     text-align: center;
-    color: grey;
+    color: black;
 }
 body {
-    background-color: rgb(78, 73, 82);
+    background-color: lightgray;
+}
+.header{
+    border: 5px outset midnightblue;
+    background-color: lavender;
+    text-align: center;
+    text-size-adjust: 50;
+}
+img {
+    position: absolute; 
+    right: 10px;
+}
+.landingContainer {
+    font-family: "Arial";
+    background-color: lightcoral;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+}
+.tableBody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
 }
